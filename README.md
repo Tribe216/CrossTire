@@ -43,8 +43,16 @@ CrossTire will be built upon these technologies:
 The game will user the following files:
 
 `landing.js`: this will render and capture state changes on the landing page for later use
+
 `board.js`: this will hold the logic for creating and maintaining state of the game board
-`piece.js`: this will hold the logic of the tire and ball bearing pieces
+
+`piece.js`: this will hold the common properties and logic to the game pieces
+
+`tire.js`: this will hold the properties properties and logic to the tire pieces
+
+
+`bearing.js`: this will hold the common properties and logic to the ball bearing pieces
+
 
 ### Implementation Timeline
 
