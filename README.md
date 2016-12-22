@@ -50,7 +50,6 @@ The game will user the following files:
 
 `tire.js`: this will hold the properties properties and logic to the tire pieces
 
-
 `bearing.js`: this will hold the common properties and logic to the ball bearing pieces
 
 
