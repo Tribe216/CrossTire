@@ -11,10 +11,22 @@ img {
   float: left;
 }
 
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center
+}
+
 article {
-  color: orange;
+  color: #aaa;
   font-family: sans-serif;
   font-size: 16pt;
-  float: left;
-  padding: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+strong {
+  color: orange;
 }
