@@ -1,6 +1,11 @@
 canvas {
   background: url(big_red_grid.jpg);
-  background-size: 100%;}
+  background-size: 100%;
+  margin: 10 auto;
+  border: 6px ridge gray;
+  border-radius: 40px;
+  display: block;
+}
 
 body {
   background-color: black;
