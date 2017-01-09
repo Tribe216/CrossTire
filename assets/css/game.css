@@ -1,0 +1,89 @@
+canvas {
+  background: url(../big_red_grid.jpg);
+  background-size: 100%;
+  margin: 10 auto;
+  border: 6px ridge gray;
+  border-radius: 40px;
+  display: block;
+}
+
+body {
+  background-color: black;
+  color: #aaa;
+  font-family: sans-serif;
+  font-size: 14pt;
+  text-align: center;
+  width: 1220px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.instructions {
+  padding: 10px;
+  background-color: #333;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  color: orange;
+  margin: 0 10px
+}
+
+.instructions:hover {
+  cursor: pointer;
+}
+
+.instructions:hover + section {
+  display:block;
+
+}
+
+img {
+  margin: 10px;
+  float: left;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;;
+  align-items: center
+}
+
+section {
+  display: none;
+  position: fixed;
+  top: 120px;
+  left: 50px;
+  background-color: black;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 24px;
+  line-height: 200%;
+}
+
+strong {
+  color: orange;
+}
+
+ul {
+  list-style: none;
+  margin: none;
+}
+
+li {
+  float: left;
+  padding: 0 20px;
+
+}
+
+li > a{
+  text-decoration: none;
+  color: orange;
+
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

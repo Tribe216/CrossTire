@@ -1,32 +1,60 @@
 <html>
   <head>
     <title>CrossTire</title>
-    <link rel="stylesheet" href="assets/game.css">
+    <link rel="stylesheet" href="assets/css/game.css">
+    <link rel="stylesheet" href="assets/css/range.css">
     <link rel='icon' href='assets/favicon.ico' type='image/x-icon'/ >
   </head>
 
   <body>
     <header>
-      <article>
-        Aim<br>
-        <strong>E, F</strong><br>
-        Fire<br>
-        <strong>D, S, or W</strong>
+      <article class="instructions">
+        How to Play
       </article>
+
+      <section class=''>
+        <strong>E</strong>: Aim Up<br>
+        <strong>F</strong>: Aim Down<br>        
+        <strong>D, S, or W</strong>: Fire<br>
+      </section>
 
       <img src="assets/crosstire.png" alt="CrossTire" />
 
       <article>
-        Aim<br>
-        <strong>I, J</strong><br>
-        Fire<br>
-        <strong>K, L, or O</strong>
+        <label for="volume_music">Music</label>
+        <input oninput="bgVolume=(value/100);gameView.game.syncBgVolume()" type="range" min="0" max="100" value="30" id="volume_music" />
+        <label for="volume_sfx">SFX</label>
+        <input oninput="sfxVolume=(value/100)"type="range" min="0" max="100" value="100" id="volume_sfx" />
+        <label for="difficulty">Difficulty</label>
+        <input oninput="gameView.game.difficulty=value/1;gameView.game.updateDifficulty()"type="range" min="0" max="100" value="30" id="difficulty" />
       </article>
     </header>
     <canvas></canvas>
 
+
+
+
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
-    
+    <script type="application/javascript">
+      window.bgVolume = 0.3;
+      window.sfxVolume = 1.0;
+    </script>
+
+    <footer>
+      <ul class="clearfix">
+        <li>
+          <a href="http://bartmach.tech">Porfolio</a>
+        </li>
+
+        <li>
+          <a href="http://www.linkedin.com/in/b-h-m">LinkedIn</a>
+        </li>
+
+        <li>
+          <a href="http://github.com/Tribe216">GitHub</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
