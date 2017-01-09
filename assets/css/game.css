@@ -30,6 +30,8 @@ body {
 
 .instructions:hover {
   cursor: pointer;
+  transition: font-size 0.2s;
+  background-color: #444;
 }
 
 .instructions:hover > section {
@@ -75,14 +77,20 @@ ul {
 
 li {
   float: left;
-  padding: 0 20px;
+  width: 130px;
+  border: 0px solid yellow;
+  box-sizing: border-box;
+}
+
+li:hover {
+  font-size: 22px;
+  transition: font-size 0.2s;
 
 }
 
 li > a{
   text-decoration: none;
   color: orange;
-
 }
 
 .clearfix::after {
