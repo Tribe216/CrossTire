@@ -1,6 +1,6 @@
 ![CrossTire Logo](./assets/crosstire.png)
 
-Link to [Live Version](http://crosstire.top)
+Link to [Live Version](http://crosstire.online)
 
 CrossTire is an action-packed browser game based on the classic board game [Cross Fire](https://en.wikipedia.org/wiki/Crossfire_(board_game)).
 
@@ -28,4 +28,4 @@ Bart Mach is a software developer based in New York City.
 
 [Portfolio](http://bartmach.tech)   [GitHub](http://github.com/Tribe216)
 [LinkedIn](http://www.linkedin.com/in/b-h-m)
-[AngelList](https://angel.co/bart-mach)
+[AngelList](http://angel.co/bart-mach)
