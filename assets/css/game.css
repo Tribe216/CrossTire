@@ -24,14 +24,15 @@ body {
   border: 2px solid maroon;
   border-radius: 10px;
   color: orange;
-  margin: 0 10px
+  margin: 0 10px;
+  position: relative;
 }
 
 .instructions:hover {
   cursor: pointer;
 }
 
-.instructions:hover + section {
+.instructions:hover > section {
   display:block;
 
 }
@@ -50,8 +51,8 @@ header {
 
 section {
   display: none;
-  position: fixed;
-  top: 120px;
+  position: absolute;
+  top: 50px;
   left: 50px;
   background-color: black;
   border: 2px solid maroon;
@@ -59,6 +60,8 @@ section {
   padding: 30px;
   font-size: 24px;
   line-height: 200%;
+  width: 200px;
+  color: gray;
 }
 
 strong {
