@@ -127,6 +127,10 @@ li > a{
     width: 80%; /* Could be more or less, depending on screen size */
 }
 
+#newGameMessage:hover {
+    cursor: pointer;
+}
+
 #endgameMessage {
     font-size: 120px;
     font-weight: bold;
