@@ -98,3 +98,44 @@ li > a{
   display: block;
   clear: both;
 }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+
+
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+
+    background-color: transparent;
+    margin: 150 auto ;
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#endgameMessage {
+    font-size: 120px;
+    font-weight: bold;
+    margin: 125px 0 25px 0;
+     padding: 5px solid yellow;
+}
+
+#newGameMessage {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px;
+}
